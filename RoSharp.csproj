@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -19,7 +20,8 @@
     <PackageTags>roblox;api;wrapper;c#;webapi</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-    <PackageReleaseNotes>See https://github.com/Thundermaker300/RoSharp/releases/tag/v2.0.0-alpha7 for release notes.</PackageReleaseNotes>
+    <PackageReleaseNotes>See https://github.com/Thundermaker300/RoSharp/releases/tag/v2.0.0-alpha7
+      for release notes.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
